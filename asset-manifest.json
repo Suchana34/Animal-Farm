@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Animal-Farm/animal-farm/static/css/main.36497136.chunk.css",
-    "main.js": "/Animal-Farm/animal-farm/static/js/main.5b75bee6.chunk.js",
-    "main.js.map": "/Animal-Farm/animal-farm/static/js/main.5b75bee6.chunk.js.map",
-    "runtime-main.js": "/Animal-Farm/animal-farm/static/js/runtime-main.10cd5e84.js",
-    "runtime-main.js.map": "/Animal-Farm/animal-farm/static/js/runtime-main.10cd5e84.js.map",
-    "static/js/2.04ea09a4.chunk.js": "/Animal-Farm/animal-farm/static/js/2.04ea09a4.chunk.js",
-    "static/js/2.04ea09a4.chunk.js.map": "/Animal-Farm/animal-farm/static/js/2.04ea09a4.chunk.js.map",
-    "index.html": "/Animal-Farm/animal-farm/index.html",
-    "precache-manifest.b46df937751f5659cd9f911b69380663.js": "/Animal-Farm/animal-farm/precache-manifest.b46df937751f5659cd9f911b69380663.js",
-    "service-worker.js": "/Animal-Farm/animal-farm/service-worker.js",
-    "static/css/main.36497136.chunk.css.map": "/Animal-Farm/animal-farm/static/css/main.36497136.chunk.css.map",
-    "static/js/2.04ea09a4.chunk.js.LICENSE.txt": "/Animal-Farm/animal-farm/static/js/2.04ea09a4.chunk.js.LICENSE.txt",
-    "static/media/facebook.svg": "/Animal-Farm/animal-farm/static/media/facebook.73caaa01.svg",
-    "static/media/instagram.svg": "/Animal-Farm/animal-farm/static/media/instagram.0b117993.svg",
-    "static/media/twitter.svg": "/Animal-Farm/animal-farm/static/media/twitter.435fc4bc.svg"
+    "main.css": "/Animal-Farm/static/css/main.36497136.chunk.css",
+    "main.js": "/Animal-Farm/static/js/main.92ae21fc.chunk.js",
+    "main.js.map": "/Animal-Farm/static/js/main.92ae21fc.chunk.js.map",
+    "runtime-main.js": "/Animal-Farm/static/js/runtime-main.cbdb48cf.js",
+    "runtime-main.js.map": "/Animal-Farm/static/js/runtime-main.cbdb48cf.js.map",
+    "static/js/2.04ea09a4.chunk.js": "/Animal-Farm/static/js/2.04ea09a4.chunk.js",
+    "static/js/2.04ea09a4.chunk.js.map": "/Animal-Farm/static/js/2.04ea09a4.chunk.js.map",
+    "index.html": "/Animal-Farm/index.html",
+    "precache-manifest.4bec9535301e6e326acbe0223d7898e5.js": "/Animal-Farm/precache-manifest.4bec9535301e6e326acbe0223d7898e5.js",
+    "service-worker.js": "/Animal-Farm/service-worker.js",
+    "static/css/main.36497136.chunk.css.map": "/Animal-Farm/static/css/main.36497136.chunk.css.map",
+    "static/js/2.04ea09a4.chunk.js.LICENSE.txt": "/Animal-Farm/static/js/2.04ea09a4.chunk.js.LICENSE.txt",
+    "static/media/facebook.svg": "/Animal-Farm/static/media/facebook.73caaa01.svg",
+    "static/media/instagram.svg": "/Animal-Farm/static/media/instagram.0b117993.svg",
+    "static/media/twitter.svg": "/Animal-Farm/static/media/twitter.435fc4bc.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.10cd5e84.js",
+    "static/js/runtime-main.cbdb48cf.js",
     "static/js/2.04ea09a4.chunk.js",
     "static/css/main.36497136.chunk.css",
-    "static/js/main.5b75bee6.chunk.js"
+    "static/js/main.92ae21fc.chunk.js"
   ]
 }
