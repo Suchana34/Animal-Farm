@@ -1,7 +1,7 @@
 {
   "name": "material-design",
   "version": "0.1.0",
-  "homepage": "http://Suchana34.github.io/Animal-Farm",
+  "homepage": "http://Suchana34.github.io/Animal-Farm/Animal-Farm",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.7",
