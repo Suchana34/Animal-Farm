@@ -17,7 +17,7 @@ function App() {
     <div
       style={{ backgroundColor: "#263859",}}>
       <ThemeProvider theme={theme}>
-        <BrowserRouter basename = '/'>
+        <BrowserRouter basename = {'/animal-farm'}>
           <Navbar
             value={value}
             setValue={setValue}
@@ -26,7 +26,7 @@ function App() {
           />
           <Route
             exact
-            path="/animal-farm"
+            path="/"
             render={props => (
               <Main
                 {...props}

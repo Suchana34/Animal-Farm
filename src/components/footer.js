@@ -57,7 +57,7 @@ export default function Footer(props) {
                 item
                 component={Link}
                 onClick={() => props.setValue(0)}
-                to="/animal-farm"
+                to="/"
                 className={classes.link}
               >
                 Home
@@ -73,7 +73,7 @@ export default function Footer(props) {
                   props.setValue(1);
                   props.setSelectedIndex(0);
                 }}
-                to="/animal-farm/research"
+                to="/research"
                 className={classes.link}
               >
                 Research
@@ -81,7 +81,7 @@ export default function Footer(props) {
               <Grid
                 item
                 component={Link}
-                to="/animal-farm/overview"
+                to="/overview"
                 className={classes.link}
                 onClick={() => {
                   props.setValue(1);
@@ -93,7 +93,7 @@ export default function Footer(props) {
               <Grid
                 item
                 component={Link}
-                to="/animal-farm/centres"
+                to="/centres"
                 className={classes.link}
                 onClick={() => {
                   props.setValue(1);
@@ -109,7 +109,7 @@ export default function Footer(props) {
                   props.setValue(1);
                   props.setSelectedIndex(3);
                 }}
-                to="/animal-farm/resources"
+                to="/resources"
                 className={classes.link}
               >
                 Tools and Resources
@@ -121,7 +121,7 @@ export default function Footer(props) {
               <Grid
                 item
                 component={Link}
-                to="/animal-farm/services"
+                to="/services"
                 className={classes.link}
                 onClick={() => props.setValue(2)}
               >
@@ -130,7 +130,7 @@ export default function Footer(props) {
               <Grid
                 item
                 component={Link}
-                to="/animal-farm/services"
+                to="/services"
                 className={classes.link}
                 onClick={() => props.setValue(2)}
               >
@@ -139,7 +139,7 @@ export default function Footer(props) {
               <Grid
                 item
                 component={Link}
-                to="/animal-farm/services"
+                to="/services"
                 className={classes.link}
                 onClick={() => props.setValue(2)}
               >
@@ -148,7 +148,7 @@ export default function Footer(props) {
               <Grid
                 item
                 component={Link}
-                to="/animal-farm/services"
+                to="/services"
                 className={classes.link}
                 onClick={() => props.setValue(2)}
               >
@@ -162,7 +162,7 @@ export default function Footer(props) {
                 item
                 component={Link}
                 onClick={() => props.setValue(3)}
-                to="/animal-farm/about"
+                to="/about"
                 className={classes.link}
               >
                 About Us
@@ -171,7 +171,7 @@ export default function Footer(props) {
                 item
                 component={Link}
                 onClick={() => props.setValue(3)}
-                to="/animal-farm/about"
+                to="/about"
                 className={classes.link}
               >
                 History
@@ -180,7 +180,7 @@ export default function Footer(props) {
                 item
                 component={Link}
                 onClick={() => props.setValue(3)}
-                to="/animal-farm/about"
+                to="/about"
                 className={classes.link}
               >
                 Team
@@ -193,7 +193,7 @@ export default function Footer(props) {
                 item
                 component={Link}
                 onClick={() => props.setValue(4)}
-                to="/animal-farm/contact"
+                to="/contact"
                 className={classes.link}
               >
                 Contact Us

@@ -140,40 +140,40 @@ export default function Header(props) {
   };
 
   const menuOptions = [
-    { name: "Research", link: "/animal-farm/research", activeIndex: 1, selectedIndex: 0 },
+    { name: "Research", link: "/research", activeIndex: 1, selectedIndex: 0 },
     {
       name: "Overview",
-      link: "/animal-farm/overview",
+      link: "/overview",
       activeIndex: 1,
       selectedIndex: 1
     },
     {
       name: "Reseach Centres",
-      link: "/animal-farm/centres",
+      link: "/centres",
       activeIndex: 1,
       selectedIndex: 2
     },
     {
       name: "Tools and Resources",
-      link: "/animal-farm/resources",
+      link: "/resources",
       activeIndex: 1,
       selectedIndex: 3
     }
   ];
 
   const routes = [
-    { name: "Home", link: "/animal-farm", activeIndex: 0 },
+    { name: "Home", link: "/", activeIndex: 0 },
     {
       name: "Research",
-      link: "/animal-farm/research",
+      link: "/research",
       activeIndex: 1,
       ariaOwns: anchorEl ? "simple-menu" : undefined,
       ariaPopup: anchorEl ? "true" : undefined,
       mouseOver: event => handleClick(event)
     },
-    { name: "Our Services", link: "/animal-farm/services", activeIndex: 2 },
-    { name: "About Us", link: "/animal-farm/about", activeIndex: 3 },
-    { name: "Contact Us", link: "/animal-farm/contact", activeIndex: 4 }
+    { name: "Our Services", link: "/services", activeIndex: 2 },
+    { name: "About Us", link: "/about", activeIndex: 3 },
+    { name: "Contact Us", link: "/contact", activeIndex: 4 }
   ];
 
   useEffect(() => {
@@ -190,7 +190,7 @@ export default function Header(props) {
             }
           }
           break;
-        case "/animal-farm/login":
+        case "/login":
           props.setValue(5);
           break;
         default:
@@ -222,7 +222,7 @@ export default function Header(props) {
       </Tabs>
       <Button
         component={Link}
-        to="/animal-farm/login"
+        to="/login"
         variant="contained"
         color="secondary"
         className={classes.button}
@@ -304,7 +304,7 @@ export default function Header(props) {
               root: classes.drawerItemEstimate,
               selected: classes.drawerItemSelected
             }}
-            to="/animal-farm/login"
+            to="/login"
             selected={props.value === 5}
           >
             <ListItemText className={classes.drawerItem} disableTypography>
@@ -329,7 +329,7 @@ export default function Header(props) {
           <Toolbar disableGutters>
             <Button
               component={Link}
-              to="/animal-farm"
+              to="/"
               disableRipple
               onClick={() => props.setValue(0)}
               className={classes.logoContainer}
